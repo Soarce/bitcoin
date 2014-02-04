@@ -386,6 +386,8 @@ public:
 
     uint256 GetHash() const;
 
+    char *GetHashString() const;
+
     int64_t GetBlockTime() const
     {
         return (int64_t)nTime;

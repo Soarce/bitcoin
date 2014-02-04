@@ -217,6 +217,11 @@ uint256 CBlockHeader::GetHash() const
     return Hash(BEGIN(nVersion), END(nNonce));
 }
 
+char *CBlockHeader::GetHashString() const
+{
+    return HashString(BEGIN(nVersion), END(nNonce));
+}
+
 uint256 CBlock::BuildMerkleTree() const
 {
     vMerkleTree.clear();
@@ -284,5 +289,7 @@ void CBlock::print() const
     LogPrintf("  vMerkleTree: ");
     for (unsigned int i = 0; i < vMerkleTree.size(); i++)
         LogPrintf("%s ", vMerkleTree[i].ToString());
+    // LogPrintf("\n");
+    // LogPrintf("CBlockHeaderBitString(%s)", GetHashString());
     LogPrintf("\n");
 }

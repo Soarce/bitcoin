@@ -9,6 +9,7 @@
 #include "serialize.h"
 #include "uint256.h"
 #include "version.h"
+#include "util.h"
 
 #include <vector>
 
@@ -24,6 +25,25 @@ inline uint256 Hash(const T1 pbegin, const T1 pend)
     uint256 hash2;
     SHA256((unsigned char*)&hash1, sizeof(hash1), (unsigned char*)&hash2);
     return hash2;
+}
+
+// Following two functions are borrowed from cgminer.
+template<typename T1>
+inline char *HashString(const T1 pbegin, const T1 pend)
+{
+    size_t len = (pend - pbegin) * sizeof(pbegin[0]);
+    unsigned char *p = ((unsigned char*)&pbegin[0]);
+
+    char *s = (char*)malloc((len * 2) + 1);
+    	unsigned int i;
+
+    	if (!s)
+    		return NULL;
+
+    	for (i = 0; i < len; i++)
+    		sprintf(s + (i * 2), "%02x", (unsigned int) p[i]);
+
+    	return s;
 }
 
 class CHashWriter
@@ -44,6 +64,15 @@ public:
     }
 
     CHashWriter& write(const char *pch, size_t size) {
+
+//        char *s = (char*)malloc((size * 2) + 1);
+//            unsigned int i;
+//
+//            for (i = 0; i < size; i++)
+//                sprintf(s + (i * 2), "%02x", (unsigned int) pch[i]);
+//
+//        LogPrintf("%s", s);
+
         SHA256_Update(&ctx, pch, size);
         return (*this);
     }
