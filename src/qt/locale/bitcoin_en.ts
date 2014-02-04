@@ -6,12 +6,12 @@
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin Core</source>
-        <translation type="unfinished"></translation>
+        <translation>About Tatcoin Core</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
-        <translation type="unfinished"></translation>
+        <translation>Tatcoin Core</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -36,7 +36,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <source>The Bitcoin developers</source>
-        <translation>The Bitcoin developers</translation>
+        <translation>The Tatcoin developers</translation>
     </message>
 </context>
 <context>
@@ -124,12 +124,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
+        <translation>These are your Tatcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation type="unfinished"></translation>
+        <translation>These are your Tatcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -327,7 +327,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location filename="../bitcoin.cpp" line="+362"/>
         <source>Bitcoin Core is shutting down...
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Tatcoin Core is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -385,7 +385,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Show information about Bitcoin</source>
-        <translation>Show information about Bitcoin</translation>
+        <translation>Show information about Tatcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -446,12 +446,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-393"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Send coins to a Bitcoin address</translation>
+        <translation>Send coins to a Tatcoin address</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Modify configuration options for Bitcoin</translation>
+        <translation>Modify configuration options for Tatcoin</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -481,7 +481,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+414"/>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>Tatcoin</translation>
     </message>
     <message>
         <location line="-629"/>
@@ -517,12 +517,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Sign messages with your Bitcoin addresses to prove you own them</translation>
+        <translation>Sign messages with your Tatcoin addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Bitcoin addresses</translation>
+        <translation>Verify messages to ensure they were signed with specified Tatcoin addresses</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -553,7 +553,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-398"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <translation>Tatcoin Core</translation>
     </message>
     <message>
         <location line="+165"/>
@@ -564,7 +564,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+29"/>
         <location line="+2"/>
         <source>&amp;About Bitcoin Core</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;About Tatcoin Core</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -579,20 +579,20 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+3"/>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation type="unfinished"></translation>
+        <translation>Open a tatcoin: URI or payment request</translation>
     </message>
     <message>
         <location line="+157"/>
         <location line="+5"/>
         <source>Bitcoin client</source>
-        <translation>Bitcoin client</translation>
+        <translation>Tatcoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+135"/>
         <source>%n active connection(s) to Bitcoin network</source>
         <translation>
-            <numerusform>%n active connection to Bitcoin network</numerusform>
-            <numerusform>%n active connections to Bitcoin network</numerusform>
+            <numerusform>%n active connection to Tatcoin network</numerusform>
+            <numerusform>%n active connections to Tatcoin network</numerusform>
         </translation>
     </message>
     <message>
@@ -710,7 +710,7 @@ Address: %4
     <message>
         <location filename="../bitcoin.cpp" line="+78"/>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</translation>
+        <translation>A fatal error occurred. Tatcoin can no longer continue safely and will quit.</translation>
     </message>
 </context>
 <context>
@@ -1068,7 +1068,7 @@ Address: %4
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>The entered address &quot;%1&quot; is not a valid Bitcoin address.</translation>
+        <translation>The entered address &quot;%1&quot; is not a valid Tatcoin address.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1120,7 +1120,7 @@ Address: %4
         <location line="+0"/>
         <location line="+13"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <translation>Tatcoin Core</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -1168,17 +1168,17 @@ Address: %4
     <message>
         <location line="+9"/>
         <source>Welcome to Bitcoin Core.</source>
-        <translation type="unfinished"></translation>
+        <translation>Welcome to Tatcoin Core.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation type="unfinished"></translation>
+        <translation>As this is the first time the program is launched, you can choose where Tatcoin Core will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tatcoin Core will download and store a copy of the Tatcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1193,12 +1193,12 @@ Address: %4
     <message>
         <location filename="../intro.cpp" line="+85"/>
         <source>Bitcoin</source>
-        <translation type="unfinished">Bitcoin</translation>
+        <translation>Tatcoin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
-        <translation type="unfinished">Error: Specified data directory &quot;%1&quot; can not be created.</translation>
+        <translation>Error: Specified data directory &quot;%1&quot; can not be created.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -1269,12 +1269,12 @@ Address: %4
     <message>
         <location line="+31"/>
         <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Automatically start Bitcoin after logging in to the system.</translation>
+        <translation>Automatically start Tatcoin after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Start Bitcoin on system login</translation>
+        <translation>&amp;Start Tatcoin on system login</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1304,7 +1304,7 @@ Address: %4
     <message>
         <location line="+58"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Connect to the Tatcoin network through a SOCKS proxy.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1334,7 +1334,7 @@ Address: %4
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <translation>Automatically open the Tatcoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1404,7 +1404,7 @@ Address: %4
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</translation>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Tatcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1419,7 +1419,7 @@ Address: %4
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Whether to show Bitcoin addresses in the transaction list or not.</translation>
+        <translation>Whether to show Tatcoin addresses in the transaction list or not.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1499,7 +1499,7 @@ Address: %4
         <location line="+50"/>
         <location line="+231"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</translation>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Tatcoin network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-155"/>
@@ -1569,7 +1569,7 @@ Address: %4
     <message>
         <location line="+1"/>
         <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation type="unfinished">URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</translation>
+        <translation>URI can not be parsed! This can be caused by an invalid Tatcoin address or malformed URI parameters.</translation>
     </message>
     <message>
         <location line="+96"/>
@@ -1589,7 +1589,7 @@ Address: %4
     <message>
         <location line="-348"/>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Cannot start tatcoin: click-to-pay handler</translation>
     </message>
     <message>
         <location line="+106"/>
@@ -1648,7 +1648,7 @@ Address: %4
         <location filename="../bitcoin.cpp" line="+71"/>
         <location line="+11"/>
         <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <translation>Tatcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1829,12 +1829,12 @@ Address: %4
     <message>
         <location line="+7"/>
         <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <translation>Open the Tatcoin debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Show the Bitcoin-Core help message to get a list with possible Bitcoin command-line options.</source>
-        <translation type="unfinished"></translation>
+        <translation>Show the Tatcoin-Core help message to get a list with possible Tatcoin command-line options.</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1844,7 +1844,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Welcome to the Bitcoin RPC console.</translation>
+        <translation>Welcome to the Tatcoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2211,7 +2211,7 @@ Address: %4
     <message>
         <location line="-136"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation type="unfinished">Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Enter a Tatcoin address (e.g. TNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2301,7 +2301,7 @@ Address: %4
     <message>
         <location line="+112"/>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation type="unfinished"></translation>
+        <translation>Warning: Invalid Tatcoin address</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -2351,7 +2351,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>The address to send the payment to (e.g. TNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+30"/>
@@ -2425,7 +2425,7 @@ Address: %4
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Enter a Tatcoin address (e.g. TNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -2448,7 +2448,7 @@ Address: %4
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>The address to sign the message with (e.g. TNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2490,7 +2490,7 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Sign the message to prove you own this Bitcoin address</translation>
+        <translation>Sign the message to prove you own this Titcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2521,12 +2521,12 @@ Address: %4
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>The address the message was signed with (e.g. TNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Bitcoin address</translation>
+        <translation>Verify the message to ensure it was signed with the specified Titcoin address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2542,7 +2542,7 @@ Address: %4
         <location filename="../signverifymessagedialog.cpp" line="+29"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Enter a Tatcoin address (e.g. TNS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2552,7 +2552,7 @@ Address: %4
     <message>
         <location line="+3"/>
         <source>Enter Bitcoin signature</source>
-        <translation>Enter Bitcoin signature</translation>
+        <translation>Enter Tatcoin signature</translation>
     </message>
     <message>
         <location line="+84"/>
@@ -2626,12 +2626,12 @@ Address: %4
     <message>
         <location filename="../splashscreen.cpp" line="+28"/>
         <source>Bitcoin Core</source>
-        <translation type="unfinished">Bitcoin Core</translation>
+        <translation>Tatcoin Core</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>The Bitcoin Core developers</source>
-        <translation type="unfinished"></translation>
+        <translation>The Tatcoin Core developers</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3253,7 +3253,7 @@ Address: %4
     <message>
         <location line="-26"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</translation>
+        <translation>Listen for connections on &lt;port&gt; (default: 57473 or testnet: 57475)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3288,7 +3288,7 @@ Address: %4
     <message>
         <location line="+34"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</translation>
+        <translation>Listen for JSON-RPC connections on &lt;port&gt; (default: 57472 or testnet: 57474)</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -3332,7 +3332,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Tatcoin Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3353,7 +3353,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</translation>
+        <translation>Cannot obtain a lock on data directory %s. Tatcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3433,12 +3433,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+1"/>
         <source>Bitcoin Core Daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>Tatcoin Core Daemon</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bitcoin RPC client version</source>
-        <translation type="unfinished"></translation>
+        <translation>Tatcoin RPC client version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3638,7 +3638,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+1"/>
         <source>Send command to Bitcoin server</source>
-        <translation type="unfinished"></translation>
+        <translation>Send command to Tatcoin server</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3658,7 +3658,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Start Bitcoin server</source>
-        <translation type="unfinished"></translation>
+        <translation>Start Tatcoin server</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3938,7 +3938,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+98"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Wallet needed to be rewritten: restart Bitcoin to complete</translation>
+        <translation>Wallet needed to be rewritten: restart Tatcoin to complete</translation>
     </message>
     <message>
         <location line="-100"/>
@@ -3998,7 +3998,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-32"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Bitcoin is probably already running.</translation>
+        <translation>Unable to bind to %s on this computer. Tatcoin is probably already running.</translation>
     </message>
     <message>
         <location line="+95"/>
